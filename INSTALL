@@ -1,0 +1,15 @@
+python setup.py install
+
+python setup.py --help   # for more options
+
+Requirements:
+
+(Only tested on Linux, but should be ok on Solaris and easy to port to Windows)
+k version >= 2.95
+kdb version >= 2.5 (only for pyk.ksql)
+Python version >= 2.3 (can be made to work with 2.2, but not earlier)
+Numeric version > 23.0 (earlier versions may work as well)
+libk20.so (download from http://www.kx.com/a/lin/libk20.so and put in $HOME/k)
+k20.h (download from http://www.kx.com/a/k/connect/c/k20.h and put in $HOME/k)
+libX11 (you may need to edit xlib path in setup.py to point to the X11
+        library directory on your system)

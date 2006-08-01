@@ -1,0 +1,9 @@
+See INSTALL for installation instructions.
+
+Once installed, documentation is available through pydoc
+
+pydoc pyk
+pydoc pyk.K
+pydoc pyk.k
+
+See Lib/test for tests/examples
