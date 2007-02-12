@@ -4,6 +4,6 @@ Once installed, documentation is available through pydoc
 
 pydoc pyk
 pydoc pyk.K
-pydoc pyk.k
+pydoc pyk.ksql
 
 See Lib/test for tests/examples
