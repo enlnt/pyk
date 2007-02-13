@@ -428,7 +428,7 @@ _set_Kc(PyObject* self, PyObject* args)
 	if (PyArg_ParseTuple(args, "O!s", &_KType, &ko, &c)) {
 		K k = ((_K*)ko)->kobj;
 		if (k && k->t == 3) {
-			Ki(k) = c[0];
+			Kc(k) = c[0];
 			Py_INCREF(ko);
 			return ko;
 		} else {
